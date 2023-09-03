@@ -2,8 +2,12 @@ body{
     text-align: center;
     align-items: center;
     font-family: sans-serif;
-    color: rgb(190, 0, 190);
-    background-color: rgb(255, 75, 255);
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+#answers{
+    width: 50%;
+    margin: auto;
 }
 .ans{
     float: left;
