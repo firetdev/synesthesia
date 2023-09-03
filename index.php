@@ -15,6 +15,7 @@
         <div id="answers">
             <?php
                 $num = $_GET["num"];
+                $number = 0;
                 if(!isset($num) || empty($num)){
                     echo "Invalid input!";
                 } else{
@@ -25,7 +26,12 @@
                         while(!feof($input)){
                             $color = fgets($input);
                             if($color !== false){
-                                echo "<div class='ans' style='background-color:".$color.";'></div><br>";
+                                echo "<div class='ans' style='background-color:".$color.";'></div>";
+                                $number++;
+                                if($number > 14){
+                                    $number = 0;
+                                    echo "<br>";
+                                }
                             }
                         }
                         fclose($input);

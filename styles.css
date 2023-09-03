@@ -6,17 +6,17 @@ body{
     background-color: rgb(49, 49, 49);
 }
 h1{
-    font-size: 150%;
-    padding-top: 10%;
+    font-size: 250%;
+    padding-top: 50px;
 }
 #answers{
     width: 50%;
     margin: auto;
-    float: left;
     align-items: center;
 }
 .ans{
     float: left;
+    margin: 5px;
     width: 50px;
     height: 50px;
 }
