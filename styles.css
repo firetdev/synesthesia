@@ -2,8 +2,8 @@ body{
     text-align: center;
     align-items: center;
     font-family: sans-serif;
-    color: white;
-    background-color: rgb(49, 49, 49);
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, red,orange,yellow,rgb(1, 200, 1),blue,indigo,rgb(237, 110, 237));
 }
 h1{
     font-size: 250%;
