@@ -18,14 +18,14 @@
                 if(!isset($num) || empty($num)){
                     echo "Invalid input!";
                 } else{
-                $filename = $num . ".txt";
+                $filename = $num.".txt";
                 if(file_exists($filename)){
                     $input = fopen($filename, "r");
                     if($input){
                         while(!feof($input)){
                             $color = fgets($input);
-                            if($color !== false) {
-                                echo "<div class='ans' style='background-color:" . $color . ";'></div><br>";
+                            if($color !== false){
+                                echo "<div class='ans' style='background-color:".$color.";'></div><br>";
                             }
                         }
                         fclose($input);
