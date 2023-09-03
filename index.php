@@ -6,7 +6,7 @@
     </head>
     <body>
         <h1 id="title">What Color Is This Sound?</h1>
-        <div id="vid">
+        <br><div id="vid">
             <?php
                 $num = $_GET["num"];
                 if($num == 1){
