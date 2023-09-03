@@ -5,9 +5,15 @@ body{
     color: white;
     background-color: rgb(49, 49, 49);
 }
+h1{
+    font-size: 150%;
+    padding-top: 10%;
+}
 #answers{
     width: 50%;
     margin: auto;
+    float: left;
+    align-items: center;
 }
 .ans{
     float: left;
