@@ -3,7 +3,7 @@ body{
     align-items: center;
     font-family: sans-serif;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, red,orange,yellow,rgb(1, 200, 1),blue,indigo,rgb(237, 110, 237));
+    background-image: linear-gradient(to right, red,orange,yellow,rgb(1, 200, 1),blue,rgb(106, 0, 181),rgb(233, 57, 253));
 }
 h1{
     font-size: 250%;
