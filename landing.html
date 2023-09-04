@@ -12,7 +12,12 @@
             or skip it by pressing "skip." Beneath the selector and buttons you can see the colors others submitted.<br>
             After you submit or skip you will be moved to the next sound.
         </h3>
-        <button onclick="function(){window.location='index.php?num=1'}">Let's go!</button>
+        <script>
+            function redirect(){
+                window.location = "index.php?num=1";
+            }
+        </script>
+        <button onclick="redirect()">Let's go!</button>
         <h3>Places you can follow me and thus boost my ego:</h3>
         <br><a href="https://youtube.com/FutureGamesDev">My YouTube channel</a><br>
         <br><a href="https://twitter.com/FutureGames9">My Twitter</a><br>
