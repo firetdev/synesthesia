@@ -28,8 +28,19 @@
         </div>
         <form action="add.php" method="get">
             <input type="color" id="color" name="color" value="#ff0000">
-            <input type="hidden" id="num" name="num" value="1">
+            <?php
+                echo '<input type="hidden" name="num" value="'.$_GET["num"].'">';
+            ?>
+            <input type="hidden" name="sub" value="yes">
             <input type="submit" value="Submit!">
+        </form>
+        <form action="add.php" method="get">
+            <input type="hidden" name="color" value="#ff0000">
+            <?php
+                echo '<input type="hidden" name="num" value="'.$_GET["num"].'">';
+            ?>
+            <input type="hidden" name="sub" value="no">
+            <input type="submit" value="Skip">
         </form>
         <div id="answers">
             <?php
@@ -58,7 +69,7 @@
                         echo "Failed to open the file.";
                     }
                 } else{
-                    echo "File not found.";
+                    echo "No responses yet";
                 }
             }
             ?>
