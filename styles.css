@@ -3,7 +3,7 @@ body{
     align-items: center;
     font-family: sans-serif;
     color: rgb(0, 0, 0);
-    animation: 7s infinite linear grad;
+    animation: 10s infinite linear grad;
 }
 h1{
     font-size: 250%;
@@ -44,4 +44,7 @@ h1{
     0%, 100%{
         background-color: rgb(233, 57, 253);
     }
+}
+a{
+    color: white;
 }

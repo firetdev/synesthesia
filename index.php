@@ -9,6 +9,9 @@
         <br><div id="vid">
             <?php
                 $num = $_GET["num"];
+                if(!isset($num)){
+                    header("Location: landing.html");
+                }
                 if($num == 1){
                     echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/O4irXQhgMqg?si=6kZUKpy657gica9X&amp;controls=0&amp;clip=UgkxQi4qu3zGbwmqU5mvIsKOTBRAh_712zo_&amp;clipt=EAAYjjg&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
