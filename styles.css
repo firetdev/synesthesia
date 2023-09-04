@@ -3,7 +3,7 @@ body{
     align-items: center;
     font-family: sans-serif;
     color: rgb(0, 0, 0);
-    background-image: linear-gradient(to right, red,orange,yellow,rgb(1, 200, 1),blue,rgb(106, 0, 181),rgb(233, 57, 253));
+    animation: 3s infinite linear grad;
 }
 h1{
     font-size: 250%;
@@ -20,4 +20,27 @@ h1{
     margin: 5px;
     width: 60px;
     height: 60px;
+}
+@keyframes grad{
+    14%{
+        background-color: red;
+    }
+    28%{
+        background-color: orange;
+    }
+    42%{
+        background-color: yellow;
+    }
+    57%{
+        background-color: rgb(1, 200, 1);
+    }
+    71%{
+        background-color: blue;
+    }
+    85%{
+        background-color: rgb(106, 0, 181);
+    }
+    0%, 100%{
+        background-color: rgb(233, 57, 253);
+    }
 }
