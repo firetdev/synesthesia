@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>What Color Is This Sound?</title>
+        <title>What Color Is This Sound?-SynesthesiaSite</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
