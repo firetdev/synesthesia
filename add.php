@@ -3,7 +3,7 @@
     if($sub == "yes"){
         $color = $_GET["color"];
         $num = $_GET["num"];
-        $file = fopen($num.".txt", "a");
+        $file = fopen("../../synData/".$num.".txt", "a");
         fwrite($file, $color."\n");
         fclose($file);
     } else{
