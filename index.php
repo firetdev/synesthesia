@@ -27,6 +27,12 @@
                 if($num == 5){
                     echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=1VYSHY-twD7LeImT&amp;controls=0&amp;clip=Ugkxk4ujU4eKKCJGI73BO64OzCFmUD95HyI0&amp;clipt=EAAYtjk&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
+                if($num == 6){
+                    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/9jK-NcRmVcw?si=CZ72ygwtmrOQRQKV&amp;controls=0&amp;clip=UgkxCScda7LKLl3T2XKU6rRKmhySNMSzBdQ1&amp;clipt=EPBqGKeqAQ&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
+                }
+                if($num == 7){
+                    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/B4zc-f0TIZ4?si=wOqsL7w2_W1letvz&amp;controls=0&amp;clip=UgkxR3Q5Rgvq8J5MdCyqKyRERSq47RTJOj0D&amp;clipt=EAAYuDA&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
+                }
             ?>
         </div>
         <form action="add.php" method="get">
