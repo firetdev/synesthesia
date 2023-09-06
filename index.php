@@ -58,7 +58,7 @@
                 if(!isset($num) || empty($num)){
                     echo "Invalid input!";
                 } else{
-                $filename = $num.".txt";
+                $filename = "../../synData/".$num.".txt";
                 if(file_exists($filename)){
                     $input = fopen($filename, "r");
                     if($input){
