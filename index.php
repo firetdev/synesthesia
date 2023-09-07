@@ -33,6 +33,18 @@
                 if($num == 7){
                     echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/B4zc-f0TIZ4?si=wOqsL7w2_W1letvz&amp;controls=0&amp;clip=UgkxR3Q5Rgvq8J5MdCyqKyRERSq47RTJOj0D&amp;clipt=EAAYuDA&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
+                if($num == 8){
+                    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/rn_YodiJO6k?si=TwdsCrZ_iABoJgov&amp;controls=0&amp;clip=UgkxoG8OnKzxxGFZCfbNwhOZ_FC3l3ZcQMlh&amp;clipt=EJTiBBiotwU&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
+                }
+                if($num == 9){
+                    echo '<br>';
+                }
+                if($num == 10){
+                    echo '<br>';
+                }
+                if($num > 10){
+                    header("Location: ending.html");
+                }
             ?>
         </div>
         <form action="add.php" method="get">
