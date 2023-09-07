@@ -37,10 +37,10 @@
                     echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/rn_YodiJO6k?si=TwdsCrZ_iABoJgov&amp;controls=0&amp;clip=UgkxoG8OnKzxxGFZCfbNwhOZ_FC3l3ZcQMlh&amp;clipt=EJTiBBiotwU&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
                 if($num == 9){
-                    echo '<br>';
+                    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/dDHErN3dOkc?si=5N8yTieuESWgUYLs&amp;controls=0&amp;clip=UgkxTyqc7fqMOuv8M0CRip0TRJPYDFTnrx_2&amp;clipt=EAAYtTs&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
                 if($num == 10){
-                    echo '<br>';
+                    echo '<iframe width="560" height="315" src="https://www.youtube.com/embed/djV11Xbc914?si=1w2Q1_-0ApaNUR1i&amp;controls=0&amp;clip=Ugkx_qNHJNw9fCjpYk37ZXEvrvoR0lJWyjxF&amp;clipt=EJmYARiwjQI&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>';
                 }
                 if($num > 10){
                     header("Location: ending.html");
